@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olx.in</title>
+    <link rel="icon" href="/Images/olx-icon.png" />
+    <link rel="stylesheet" href="bootstrap-5.1.3/dist/css/bootstrap.css">
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- CSS only -->
+    <style>
+/* ######################   Nav Bar   ################################### */
+  body{
+    text-align: left;
+    direction: ltr;
+    text-size-adjust: 100%;
+  }
+      .navbar-brand img {
+        width: 50px;
+        height: 35px;
+        margin-left: 25px;
+      }
+      nav {
+        background-color: rgb(241, 239, 239);
+      }
+      
+   /* ########################## Start-city-btn ################################### */ */
+
+      .search-btn {
+        height: 48px;
+        width: 272px;
+        max-height: 320px;
+        overflow: unset;
+        z-index: 6;
+     
+      }
+      .Box:hover {
+        border: 2px solid rgb(0, 255, 213);
+      }
+      .Box {
+        display: flex;
+        align-items: center;
+        height: 48px;
+        background: #fff;
+        padding: 0 8px;
+        box-sizing: border-box;
+        border: 2px solid #002f34;
+        border-radius: 4px;
+        margin-right: 30px;
+        width: 250px;
+      }
+      .city-btn {
+        height: 40px;
+        border-width: 0;
+        width: 100%;
+        font-size: 16px;
+        color: #002f34;
+        overflow: hidden;
+        outline: 0;
+        padding: 0 0 0 16px;
+        background: #fff;
+        white-space: nowrap;
+        text-overflow: ellipsis;  
+      }
+      .Button-svg {
+        transition: transform .5s;
+        position: relative;
+      }
+      .button-svg {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+      }
+   /* ########################## End-city-btn ################################### */
+   /* ############################## Start-City-Button ############################## */
+   body {
+        font-family: Arial;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      form.example input[type="text"] {
+        padding: 10px;
+        font-size: 17px;
+        border: 2px solid #002f34;
+        float: left;
+        width: 80%;
+        background: #fff;
+        border-radius: 5px 0 0 5px ;
+      }
+      form.example input[type="text"]:hover{
+        border: 2px solid rgb(0, 255, 213);
+      }
+      form.example button {
+        float: left;
+        width: 8%;
+        padding: 10px;
+        background: #002f34;
+        color: white;
+        font-size: 17px;
+        border: 2px solid #002f34;
+        border-left: none;
+        cursor: pointer;
+        border-radius: 0px 4px 4px 0px;
+      }
+
+      form.example button:hover {
+        background: #0b7dda;
+      }
+
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+/* ############################## End-City-Button ############################## */
+/* ############################### Start-Language-Button ############################## */
+.dropdown-item{
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #002f34;
+}
+.btn .fs-5 .dropdown-toggle{
+  font-weight: 700;
+}
+
+/* ############################### End-Language-Button ############################## */
+/* ############################## Start-login-btn ############################## */
+.login{
+  margin-left: 90px;
+  color: #002f34;
+  font-weight: 600;
+}
+/* ############################## End-login-btn ############################## */
+/* ############################## Start-Sell-btn ############################## */
+.sell-btn{
+  border-top:5px solid cyan;
+  border-left:5px solid yellow;
+  border-right: 5px solid blue;
+  border-bottom: 5px solid blue;
+  border-radius: 20px;
+  padding: 4px 8px;
+  background-color: #fff;
+  box-shadow: 2px 2px 3px #fff;
+  margin: 15px;
+  font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: #002f34;
+
+
+}
+
+/* ############################## End-Sell-btn ############################## */
+
+  /* ####################################### Start-Buy-Car ############################################### */
+    .banner{
+        margin: 0 0 40px;
+        display: flex;
+        align-items: center;
+        top: 112px;
+      }
+    .banner .car-image{
+         background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+      }
+     .car-image .in0PR{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 50%;
+        left: 52%;
+        transform: translate(-50%, -50% );
+      }
+    .sell-car{
+        color: #002f34;
+        border-color: #fff;
+        background-color: #fff;
+        height: 40px;
+        width: 102px;
+        text-transform: capitalize;
+        border: 5px solid #fff;
+        border-radius: 4px;
+        padding: 0 7px;
+        font-size: 16px;
+        font-weight:800;
+      }
+    .sell-car:hover{
+        background-color: #3a77ff;
+        color: #fff;
+      }
+/* ####################################### End-Buy-Car ############################################### */
+ 
+/* ############################## Start-Categories ############################## */
+      .categories{
+        display: flex;
+      }
+      .categories a:hover {
+        color: #00a49f;
+      } 
+      .all-categories {
+        width: 100%;
+        background-color: #fff;
+        display: inline-flex;
+        justify-content: space-around;
+        padding: 3px; 
+      } 
+      .categories p{
+        font-weight: bold;
+        margin-left: 30px;
+      }
+       .categories a{
+         display:inline-block;
+        text-decoration: none;
+        color: #333;
+        margin: 0 10px;
+        padding-top: 12px;
+      } 
+      .categories div {
+        padding: 2px;
+        margin: 0 50px;
+      } 
+      .dirction-btn {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        top: 7px;
+      }
+/* ############################### End-Categories ######################### */
+      
+/* ############################### Start-Advertising ############################## */
+     .Advertising{
+        height: 283px;
+        width: 978px;
+        overflow: hidden;
+        position: relative;
+}
+/* ############################### End-Advertising ############################### */
+
+/* ################################# start-more-Cars ############################### */
+
+h3{
+    width: 90vw;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 238, 238)
+}
+h5{
+    text-decoration: underline;
+    margin-top: 8px;
+    margin-left: -50px;
+}
+section .view-more{
+    position: absolute;
+    left: 88vw;
+    z-index: 6;
+    margin-top: -28px;
+}
+section .view-more:hover{
+    text-decoration: none;
+}
+.car-img{
+     border: 1px solid rgb(0, 47, 52, .2);
+     border-radius: 5px;
+     text-align: left;
+     margin-top: 15px;
+     padding: 8px;
+     background-color: #fff;
+}
+.car-img img{
+     width: 100%;
+     height: 100%;
+}
+.car-img .price {
+     font-weight: 700;
+     direction: ltr;
+     margin-bottom: 0;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     color: #002f34;
+     font-size: 20px;
+}
+.range-item{
+     color: #002f34;
+     font-size: 14px;
+     margin: 2px 0 0;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+}
+.name-item{
+     color: rgba(0,47,52,.64);
+     font-size: 14px;
+}
+.owl-carousel{
+     width: 90vw;
+     height: 110%;
+     margin: auto;
+     background-color: rgb(238, 238, 238);
+}
+/* ############################################# End-Cars #################################### */
+/* ########################## Start-Fresh recommendations ########################## */
+
+.fresh-items {
+  margin: 30px 0 0 30px;
+  padding: 9px 16px;
+}
+.heading span {
+  margin: 10px 0px 0px 80px;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.rs{
+  font-weight: 700;
+    font-size: 20px;
+}
+.name{
+font-size: 15px;
+    color: grey;
+    letter-spacing: .4px;
+    
+}
+.value{
+    color: #002f34;
+     font-size: 14px;
+     margin: 2px 0 0;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+}
+/* ########################## End-Fresh recommendations ########################## */
+/* ################################ start-load-more ############################### */
+.more{
+  color: #002f34;
+  font-size: 18px;
+  font-weight: bold;
+  padding:0 10px;
+  height: 48px;
+  border-radius: 4px;
+  border: 2px solid #002f34;
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+.more:hover{
+  border: 6px solid #002f34;
+}
+.load-more{
+  margin-top: 18px;
+  text-align: center;
+}
+
+/* ################################ End-load-more ############################### */
+
+/* ################################### Start-first-footer ################################### */
+.first-footer{
+  background:rgba(0,47,52,.03);
+  margin-top: 20px;
+}
+footer picture .para-1{
+  font-size: 30px;
+  line-height: 40px;
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+  margin: 28px 0 16px;
+  text-size-adjust: 100%;
+}
+.para-1 .para-2{
+  font-size: 17px;
+  line-height: 24px;
+  color: #002f34;
+  max-width: 400px;
+  margin: 28px 0 16px;
+  font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+picture{
+       max-width: 1200px;
+       display: flex;
+       justify-content: space-around;
+       margin-left: 70px;
+} 
+.line{
+  width: 2px;
+  background-color: rgba(0,47,52,.2);
+  height: 150px;
+  border: 0 solid gray;
+  margin-top: 20px;
+}
+footer picture .store{
+  display: flex;
+  width: 128px;
+  height: 40px;
+  margin-right: 8px;
+  margin-top: 20px;
+}
+footer picture .para-3{
+  margin-top: 55px;
+  margin-left: 44px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family:Roboto,Arial, Helvetica, sans-serif;
+  color: #002f34;
+  font-weight: 700;
+}
+
+/* ################################### End-first-footer ################################### */
+/* ################################### Start-Footer ########################################## */
+.footer{
+        background-color:rgb(241, 239, 239);
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        border-top:1px solid rgba(0,47,52,.2) ;
+    }
+    .footer div{
+      margin-top: 10px;
+    }
+ li{
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgba(0,47,52,.64);
+    margin-top: 7px;
+}
+.google-store{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+/* ################################### End-Footer ########################################## */
+.last-footer{
+  background-color: #002f34;
+  padding: 16px;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 100%;
+}
+.last-footer .heading-1{
+  font-weight: 700;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  padding-right: 8px;
+  color: #fff;
+  font-size: 12px;
+  text-align: right;
+  display: block;
+}
+.last-footer .heading-2{
+  font-weight: 700;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+  padding-right: 8px;
+  color: #fff;
+  font-size: 12px;
+  text-align: right;
+  display: block;
+}
+.bottom-footer{
+  max-width: 1200px;
+}
+/* ############################ End-footer ############################# */
+    </style>
+  </head>
+  <body>
+    <!-- ################################## Nav BAR ############################################ -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand ms-5 me-4 logo" href="#">
+          <img src="/Images/olx-logo-vector.png" alt="" />
+        </a>   
+      
+<!-- ################################## Image End ####################################### -->
+     
+<!-- ###################### Search-Button-Start ###################### -->
+    
+      <div class="search-btn">
+        <div data-aut-id="locationBox" class="Box">
+          <svg width="25px" height="25px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-4K4Y7" d="M448 725.333c-152.917 0-277.333-124.416-277.333-277.333s124.416-277.333 277.333-277.333c152.917 0 277.333 124.416 277.333 277.333s-124.416 277.333-277.333 277.333v0zM884.437 824.107v0.021l-151.915-151.936c48.768-61.781 78.144-139.541 78.144-224.192 0-199.979-162.688-362.667-362.667-362.667s-362.667 162.688-362.667 362.667c0 199.979 162.688 362.667 362.667 362.667 84.629 0 162.411-29.376 224.171-78.144l206.144 206.144h60.352v-60.331l-54.229-54.229z"></path></svg>
+         
+          <input class="city-btn" placeholder="Search city, area or locality" value="India" value="maharashtra">
+        
+          <span class="Button-svg">
+            <button type="button" class="button-svg" role="button" tabindex="0" data-aut-id="" title=""><svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-4K4Y7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg></button>
+          </span>
+        </div>
+      </div>
+    
+    <!-- ###################### Search-Button-End ###################### -->
+
+
+<!-- ###################### Start-Cars-Button ###################### -->
+<form class="example" action="/action_page.php" style="width:800px;">
+  <input type="text" placeholder="Find Cars, Mobile Phones and more..." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+
+    <!-- ###################### End-Car-Button ###################### -->
+  <!-- ###################### Start-English/Hindi ###################### -->
+      <div class="dropdown" style="margin:-90px;">
+        <button class="btn fs-5 dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 700;">
+          English
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><button class="dropdown-item" type="button">English</button></li>
+          <li><button class="dropdown-item" type="button">हिंदी</button></li>
+        </ul>
+    </div>
+<!-- ######################### End-English/Hindi ########################## -->
+<!-- ############################ start-login-btn ############################ -->
+
+<h5 class="login">Login</h5>
+
+<!-- ############################ End-login-btn ############################ -->
+<!-- ############################ Start-Sell-btn ############################ -->
+
+         <p class="sell-btn"><span>&#43;</span>SELL</p>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+<!-- ############################ End-Sell-btn ############################ -->
+</div>
+</div>
+</nav>
+ <!-- ###################### End-English/Hindi ###################### -->
+<!-- ###################### Start-Categories-styling ###################### -->
+<section class="categories">
+  <div>
+    <p>All CATEGORIES 
+      <button type="button" class="dirction-btn" role="button" tabindex="0" data-aut-id="" title=""><svg width="24px" height="24px" viewBox="0 0 1024 1024" data-aut-id="icon" class="" fill-rule="evenodd"><path class="rui-4K4Y7" d="M85.392 277.333h60.331l366.336 366.336 366.336-366.336h60.331v60.331l-408.981 409.003h-35.307l-409.045-409.003z"></path></svg></button>
+    
+  </p>
+  
+  </div>
+  <a href="https://www.olx.in/cars_c84">Cars</a>
+  <a href="https://www.olx.in/motorcycles_c81">Motorcycles</a>
+  <a href="https://www.olx.in/mobile-phones_c1453">Mobile Phones</a>
+  <a href="https://www.olx.in/for-sale-houses-apartments_c1725">For sale:House & Apartment</a>
+  <a href="https://www.olx.in/scooters_c1413">Scooters</a>
+  <a href="https://www.olx.in/commercial-other-vehicles_c85">Commercial & Other Vehicles</a>
+  <a href="https://www.olx.in/for-rent-houses-apartments_c1723">For Rent:Houses & Apartments</a>
+</section>
+
+
+<!-- ###################### End-Categories-styling ###################### -->
+
+<!-- ###################### Start-Banner ###################### -->
+<section>
+  <div class="banner" data-aut-id="bannerImage" style="height: 135px;">
+    <div class="car-image" style="background-image: url(&quot;https://statics.olx.in/olxin/banners/hero_bg_in_v1@1x.png&quot;); height: 135px;" data-aut-id="image">
+      <div class="in0PR">
+      <button type="button" data-aut-id="" class="sell-car" style="margin-left: 10rem;">Sell Car</button>
+    </div>
+  </div>
+</div> 
+</section>  
+  
+ <!-- ###################### End-Banner ###################### -->
+
+
+<!-- ############################## Start-Advertisement ############################## -->
+
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-6 offset-md-2  p-3" >
+      <img src="/Images/advertisement-1.jpg" class="" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- ############################## End-Advertisement ############################## -->
+<!-- ######################### Start-Cars-img ######################### -->
+
+<section>
+  <h3>More on Cars</h3>
+  <h5 class="view-more">View More</h5>
+
+<div class="owl-carousel owl-theme">
+  <div class="car-img">
+    <img src="/Images/imagew2.jpg" alt=""  />
+    <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Honda Amaze 1.6 SX Automatic Diesel, 2016, Diesel</span>
+
+  </div>
+  <div class="car-img">
+    <img src="/Images/imagew3.jpg" alt=""  />
+    <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Volkswagen Polo 1.2 MPI Comfortline, 2015, Petrol</span>
+
+  </div>
+  <div class="car-img">
+    <img src="/Images/imagew7.jpg" alt="" />
+    <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Skoda Laura Ambition 2.0 TDI CR MT, 2011, Diesel</span>
+
+  </div>
+  <div class="car-img">
+    <img src="/Images/imagew9.jpg" alt="" />
+    <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Volkswagen Jetta 2.0L TDI Comfortline, 2011, Diesel</span>
+
+  </div>
+  <div class="car-img">
+    <img src="/Images/imagew10.jpg" alt=""/>
+        <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Hyundai Sonata 2001-2004 2.7 V6, 2003, Petrol</span>
+
+  </div>
+  <div class="car-img">
+    <img src="/Images/imagew2.jpg" alt=""  />
+    <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Honda Amaze 1.6 SX Automatic Diesel, 2016, Diesel</span>
+
+  </div>
+  <div class="car-img">
+    <img src="/Images/imagew3.jpg" alt=""  />
+    <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Volkswagen Polo 1.2 MPI Comfortline, 2015, Petrol</span>
+
+  </div>
+  <div class="car-img">
+    <img src="/Images/imagew7.jpg" alt="" />
+    <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Skoda Laura Ambition 2.0 TDI CR MT, 2011, Diesel</span>
+
+  </div>
+  <div class="car-img">
+    <img src="/Images/imagew9.jpg" alt="" />
+    <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Volkswagen Jetta 2.0L TDI Comfortline, 2011, Diesel</span>
+
+  </div>
+  <div class="car-img">
+    <img src="/Images/imagew10.jpg" alt=""/>
+        <span class="price item" data-aut-id="itemPrice">₹ 1,54,999 </span><br>
+    <span class="range-item" data-aut-id="itemDetails">km 2019 - 18,000 </span><br>
+    <span class="name-item" data-aut-id="itemTitle">Hyundai Sonata 2001-2004 2.7 V6, 2003, Petrol</span>
+
+  </div>
+</section>
+
+
+<!-- ######################### End-Cars-img ######################### -->
+
+
+
+
+
+<!-- ########################## Start-Fresh recommendations ########################## -->
+<section class="fresh-items">
+  <div class="heading">
+    <span class="recommendation">Fresh Recommendations</span>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image11.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <span class="rs" >₹ 10,50,000</span><br>
+            <span class="value" >2010 - 178,490 km</span><br>
+            <span class="name" >Toyota Fortuner 3.0 4x4 Manual, 2010, Diesel</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image22.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 42,50,000</span><br>
+            <span class="value" >2016 - 54,000 km</span><br>
+            <span class="name" >Mercedes-Benz GLE Class 250d, 2016, Diesel</span>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image333.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 1,80,000</span><br>
+            <span class="value" >2014 - 46,000 km</span><br>
+            <span class="name" >Maruti Suzuki Alto K10 VXI, 2013, CNG & Hybrids</span>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image44.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 6,75,000</span><br>
+            <span class="value" >2018 - 69,000 km</span><br>
+            <span class="name" >Maruti Suzuki Swift Dzire VXI, 2018, Petrol</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image55.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 2,75,000</span><br>
+            <span class="value" >2019 - 18,000 km </span><br>
+            <span class="name" >Honda Amaze 1.6 SX Automatic 2016, Diesel</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image66.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 16,50,000</span><br>
+            <span class="value" >2016 - 110,000 km</span><br>
+            <span class="name" >Toyota Innova Crysta 2.4 VX MT, 2016, Diesel</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image77.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 3,65,000</span><br>
+            <span class="value" >2014 - 20000.0 km</span><br>
+            <span class="name" >Hyundai i10 Sportz 1.1 iRDE2, 2014, Petrol</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image99.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 2,10,000</span><br>
+            <span class="value" >2011 - 36000.0 km</span><br>
+            <span class="name" >Maruti Suzuki Alto K10 VXI, 2013, CNG & petrol</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image11.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <span class="rs" >₹ 10,50,000</span><br>
+            <span class="value" >2010 - 178,490 km</span><br>
+            <span class="name" >Toyota Fortuner 3.0 4x4 Manual, 2010, Diesel</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+            <img src="/Images/image22.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 42,50,000</span><br>
+            <span class="value" >2016 - 54,000 km</span><br>
+            <span class="name" >Mercedes-Benz GLE Class 250d, 2016, Diesel</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image333.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 1,80,000</span><br>
+            <span class="value" >2014 - 46,000 km</span><br>
+            <span class="name" >Maruti Suzuki Alto K10 VXI, 2013, CNG & Hybrids</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image44.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 6,75,000</span><br>
+            <span class="value" >2018 - 69,000 km</span><br>
+            <span class="name" >Maruti Suzuki Swift Dzire VXI, 2018, Petrol</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image55.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 2,75,000</span><br>
+            <span class="value" >2019 - 18,000 km </span><br>
+            <span class="name" >Honda Amaze 1.6 SX Automatic 2016, Diesel</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image66.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 16,50,000</span><br>
+            <span class="value" >2016 - 110,000 km</span><br>
+            <span class="name" >Toyota Innova Crysta 2.4 VX MT, 2016, Diesel</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image77.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 3,65,000</span><br>
+            <span class="value" >2014 - 20000.0 km</span><br>
+            <span class="name" >Hyundai i10 Sportz 1.1 iRDE2, 2014, Petrol</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image99.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <span class="rs" >₹ 2,10,000</span><br>
+            <span class="value" >2011 - 36000.0 km</span><br>
+            <span class="name" >Maruti Suzuki Alto K10 VXI, 2013, CNG & petrol</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+          <div class="car-img">
+          <img src="/Images/image11.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <span class="rs" >₹ 10,50,000</span><br>
+            <span class="value" >2010 - 178,490 km</span><br>
+            <span class="name" >Toyota Fortuner 3.0 4x4 Manual, 2010, Diesel</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+        <div class="car-img">
+        <img src="/Images/image22.jpg" alt="Nature" style="width:100%">
+        <div class="caption">
+         <span class="rs" >₹ 42,50,000</span><br>
+          <span class="value" >2016 - 54,000 km</span><br>
+          <span class="name" >Mercedes-Benz GLE Class 250d, 2016, Diesel</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+        <div class="car-img">
+        <img src="/Images/image333.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+         <span class="rs" >₹ 1,80,000</span><br>
+          <span class="value" >2014 - 46,000 km</span><br>
+          <span class="name" >Maruti Suzuki Alto K10 VXI, 2013, CNG & Hybrids</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+        <div class="car-img">
+        <img src="/Images/image44.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+         <span class="rs" >₹ 6,75,000</span><br>
+          <span class="value" >2018 - 69,000 km</span><br>
+          <span class="name" >Maruti Suzuki Swift Dzire VXI, 2018, Petrol</span>
+      </div>      
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+<!-- ########################## End-Fresh recommendations ########################## -->
+<!-- ############################## Start-Load-more ############################## -->
+<section>
+  <div class="load-more">
+    <button type="button" class="more">
+   <span>Load More</span>
+    </button>
+  </div>
+</section>
+
+
+<!-- ############################## End-Load-more ############################## -->
+
+<!-- ############################## Start-Advertisement ############################## -->
+
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-6 offset-md-2  p-3" >
+      <img src="/Images/advertisement-2.png" class="" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- ############################## End-Advertisement ############################## -->
+
+<!-- ############################## Start-First-footer ############################## -->
+<footer class="first-footer">
+  <picture>
+  <div class="picture" style="margin-left: 65px;">
+    <img src="/Images/phone-app.webp" alt="phone-app.webp">
+  </div>
+
+  <div class="para-1" style="font-weight: bold;">
+  <span>TRY THE OLX APP</span>
+
+
+<div class="para-2" style="font-weight: 500;">
+  <span>BUY, SELL AND FIND JUST ABOUT ANYTHING USING THE APP ON YOUR MOBILE.</span>
+</div>
+</div>
+
+<div class="line">
+
+</div>
+
+<div class="para-3">
+  <span>GET YOUR APP TODAY</span>
+
+  <div class="store">
+    <img src="/Images/appstore.webp" alt="" class="app-store" style="margin-right: 20px;">
+    <img src="/Images/playstore.webp" alt="" class="play-store">
+  </div>
+</div>
+</picture>
+</footer>
+<!-- ############################## End-First-footer ############################## -->
+
+<!-- ########################## start-footer ############################## -->
+<footer>
+  <div class="footer" style="padding-bottom: 10px;">
+<div class="POPULAR LOCATIONS"> <b>POPULAR LOCATIONS</b> 
+<li>kolkata</li>
+<li>Mumbai</li>
+<li>Channai</li>
+<li>Pune</li>
+</div>
+<div class="TRENDING LOCATIONS"> <b>TRENDING LOCATIONS</b> 
+  <li>Bhubaneshwar</li>
+  <li>Hyderabad</li>
+  <li>Chandigarh</li>
+  <li>Nashik</li>
+  </div>
+  <div class="ABOUT US"> <b>ABOUT US</b> 
+    <li>About OLX Group</li>
+    <li>Careers</li>
+    <li>Contact Us</li>
+    <li>OLXPeople</li>
+    <li>Waah Jobs</li>
+    </div>
+    <div class="TRENDING LOCATIONS"> <b>TRENDING LOCATIONS</b> 
+      <li>Help</li>
+      <li>Sitemap</li>
+      <li>Legal & Privacy information</li>
+      </div>
+    <div class="Follow US"> <b>Follow US</b> 
+      <li>
+      <img src="/Images/facebook.svg" alt="">
+      <img src="/Images/instagram.svg" alt="" >
+      <img src="/Images/twitter.svg" alt="">
+      <img src="/Images/youtube.svg" alt="">
+      <div class="google-store" style="padding-top: 50px;">
+        <img src="/Images/appstore.webp" alt="" class="app" style="margin-right: 10px;height: 20px;">
+        <img src="/Images/playstore.webp" alt="" class="play" height="20px">
+      </div>
+    </li>
+    </div>
+</div>
+</footer>
+<!-- ############################## End-footer ############################## -->
+<!-- ############################## Start-Last-Footer ############################## -->
+<section class="last-footer">
+  
+  <div class="heading-1" style="margin-left: 112px;">
+  <span>Other Countries Pakistan - South Africa - Indonesia</span>
+</div>
+<div class="heading-2" style="margin-right: 140px;">
+  <span>Free Classifieds in India. © 2006-2021 OLX</span>
+</div>
+
+</section>
+
+
+<!-- ############################## End-Last-Footer ############################## -->
+
+  <!-- ###################### Link Start ###################### -->
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+       $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
